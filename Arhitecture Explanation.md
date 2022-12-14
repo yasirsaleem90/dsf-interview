@@ -23,7 +23,8 @@ Implement a service that will communicate between grpc and Kafka. Protobuf data 
 ### Spark Application:
 Individual spark application will be called for reliable data transfer. Data Transformation will be done inside data frames, and it will ingest the data to either big query or HDFS, depending upon the requirement. Data format will be used as Parquet for high-speed data ingestion.
 
-### Parquet: It help to detect schema automatically and provide high performance in the data pipeline.
+### Parquet: 
+It help to detect schema automatically and provide high performance in the data pipeline.
 
 ### Big Query:
 Big Query is the data warehousing solutions that ensure scalable performance for the big datasets, and it can be further used with data analytics such as Data Studio, Big Query ML, Databricks and Power BI
